@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.top {
+    width: 457px;
+    height: 138px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 14px;
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 0px;
+    height: 20px;
+}
+
+.des {
+    margin-top: 14px;
+    height: 20px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+i {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    color: #858991;
+}
+
+span {
+    margin-left: 14px;
+    margin-right: 24px;
+    font-weight: 15px;
+    color: #858991;
+}
