@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Quicksand;
+  /* src: url("./assets/quicksand-font-1/quicksand-variable-font_weight.ttf"); */
+  src: url("/zeus-training/task_login_page/assets/font/Quicksand-VariableFont_wght.ttf");
+}
+
+body {
+  margin: auto;
+  background-color: #eee;
+  max-width: 1024px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 28.88px;
+  height: 56px;
+  background: url("./assets/header\ pattern\ svg.svg") no-repeat;
+  background-color: #000;
+  border-bottom: 2px solid #31b9e4;
+}
+
+.footer-links-cont {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #1f7a54;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.footer-links-divider {
+  margin-left: 8px;
+  margin-right: 10px;
+  height: 18px;
+  border: 1px solid #0000001f;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 16px; /* ISSUE: column-gap should be 16px, 16px, 8px, 11px */
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e1e1;
+  color: #616161;
+  height: 40px;
+  font-family: Quicksand; /* ISSUE: configure Quicksand font in CSS */
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer-divider {
+  height: 24px;
+  border: 1px solid #0000001f;
+}
+
+.company-name {
+  font-weight: bold;
+}

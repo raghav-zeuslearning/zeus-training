@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Login - Quantum</title>
+
+  <link rel="stylesheet" href="/zeus-training/task_login_page/login.css" />
+  <link rel="stylesheet" href="/zeus-training/task_login_page/login-fields.css" />
+</head>
+
+<body>
+  <div class="header">
+    <img src="./assets/icons/logo used in header.svg" alt="header-logo" />
+  </div>
+
+  <div class="login-card">
+    <div class="login-header">
+      <div class="back-icon">
+        <img src="./assets/icons/back.svg" alt="back button" />
+      </div>
+      <div class="login-title">
+        Log in with Quantum
+      </div>
+    </div>
+
+    <div class="login-radion-button-cont">
+      <!-- radio buttons are not as required -->
+      <!-- <input type="radio" name="place" id="district" /> -->
+      <img src="./assets/icons/radio-button-on.svg" alt="radio-on" />
+      <label for="district">District</label>
+
+      <span class="lrbc-gap"></span>
+
+      <!-- <input type="radio" name="place" id="school" /> -->
+      <img src="./assets/icons/radio-button-off.svg" alt="radio-off" />
+      <label for="school">Independent School</label>
+    </div>
+
+    <div class="data-field-cont">
+      <label class="data-field if-1">
+        <select class="input-field select-arrow">
+          <option value="alabama">Alabama</option>
+        </select>
+        <span class="placeholder">State*</span>
+        <!-- <img class="select-arrow-down" src="./assets/icons/arrow-down.svg" alt="arrow-down" /> -->
+      </label>
+
+      <label class="data-field if-2"> <!--- ISSUE: uneven margin-top -->
+        <select class="input-field select-arrow">
+          <option value="alabama-school-district">Alabama School District</option>
+        </select>
+        <span class="placeholder">District*</span>
+        <!-- <img class="select-arrow-down" src="./assets/icons/arrow-down.svg" alt="arrow-down" /> -->
+      </label>
+
+      <label class="data-field if-3">
+        <input class="input-field" type="text" placeholder="&nbsp;" />
+        <span class="placeholder">Username/Email ID*</span>
+
+        <div class="login-forgot-cont">
+          <a class="login-forgot" href="#">Forgot Username?</a>
+        </div>
+      </label>
+
+      <label class="data-field if-4">
+        <input class="input-field" type="text" placeholder="&nbsp;" /> <!-- ISSUE: put eye icon -->
+        <span class="placeholder">Password*</span>
+        <img class="pwd-eye-icon" src="./assets/icons/preview.svg" alt="show-hide" />
+
+        <div class="login-forgot-cont">
+          <a class="login-forgot" href="#">Forgot Password?</a>
+        </div>
+      </label>
+    </div>
+
+    <div class="remember-me-cont">
+      <!-- <input class="remember-me-checkbox" type="checkbox" name="remember-me" id="remember-me" checked /> -->
+      <!-- checkbox not as required -->
+      <img src="./assets/icons/checkbox-checked.svg" alt="checked" />
+      <label class="remember-me-text" for="remember-me">Remember Me</label>
+    </div>
+
+    <div style="width: 100%; text-align: center;">
+      <button class="submit-button" type="submit">
+        Log In
+      </button>
+    </div>
+  </div>
+
+  <div class="footer-links-cont">
+    <a class="footer-link" href="#">About</a>
+    <span class="footer-links-divider"></span>
+    <a class="footer-link" href="#">Contact Us</a>
+  </div>
+
+  <div class="footer">
+    <img src="./assets/icons/logo used in footer.svg" alt="footer-logo" />
+    <div class="footer-divider"></div>
+    <div>Copyright © 2020-2021</div>
+    <div class="company-name">Zeus Systems Pvt. Ltd.</div>
+    <div>All rights reserved.</div>
+  </div>
+</body>
+
+</html>
